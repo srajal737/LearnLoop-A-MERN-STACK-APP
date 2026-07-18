@@ -3,6 +3,7 @@
 LearnLoop is a MERN stack-based online learning platform designed to provide a seamless learning experience for students and a course management system for instructors.
 <br>
 The platform includes features such as secure role-based authentication, course purchasing, payment integration, course discovery, and a responsive user interface that works smoothly across desktop and mobile devices.
+<br>
 
 ## 🚀 Features
 Role-based authentication for Students and Instructors
@@ -32,73 +33,73 @@ JWT Authentication
 Payment
 Razorpay Payment Gateway
 
+<br>
 
-## ⚙️ Project Setup
-Clone the repository
-git clone <repository-url>
+## ⚙️ Project Setup <br>
+Clone the repository <br>
+git clone <repository-url> <br>
 
+Install frontend dependencies: <br>
 
-Install frontend dependencies:
-
-cd frontend
-npm install
+cd frontend <br>
+npm install <br>
 
 create a .env file where :-<br>
-VITE_BASE_URL=http://localhost:4000/api/v1 
-VITE_RAZORPAY_KEY_ID=
+VITE_BASE_URL=http://localhost:4000/api/v1 <br>
+VITE_RAZORPAY_KEY_ID= <br>
 
 
 Install backend dependencies:<br>
 
-cd backend
-npm install
+cd backend <br>
+npm install <br>
 
 🔐 Environment Variables<br>
 
 Create a .env file in the backend folder and add required environment variables such as:<br>
 
-PORT=4000
-FRONTEND_URL='http://localhost:5173'
-DATABASE_URL=
-RAZORPAY_KEY_ID=
-RAZORPAY_KEY_SECRET=
-ADMIN_EMAIL=    
+PORT=4000 <br>
+FRONTEND_URL='http://localhost:5173' <br>
+DATABASE_URL= <br>
+RAZORPAY_KEY_ID= <br>
+RAZORPAY_KEY_SECRET= <br>
+ADMIN_EMAIL=    <br>
 <br>
 
 //CLOUDINARY CREDENTIALS <br>
-CLOUD_NAME=  
-API_KEY=
-API_SECRET=
-FOLDER_NAME=
+CLOUD_NAME=  <br>
+API_KEY= <br>
+API_SECRET= <br>
+FOLDER_NAME= <br>
 
 
-JWT_SECRET=   
+JWT_SECRET=   <br>
 
 //FOR SENDING MAIL FOR SERVICES LIKE OTP , UPDATE PASSWORD , FORGET PASSWORD , COURSE BUY CONFIRMATIONS ETC.. <br>
 
 
-MAIL_HOST=smtp.gmail.com
-MAIL_USER=
-MAIL_PASS=
+MAIL_HOST=smtp.gmail.com <br>
+MAIL_USER= <br>
+MAIL_PASS= <br>
 
 
 //ALSO GO TO ROOT DIRECTORY <br>
-cd ..
-npm intall
+cd .. <br>
+npm intall <br>
 
 REMAIN AT ROOT DIRECTORY AND RUN <br>
 
 
-npm run dev  ----->>>this will run both frontend and backend concurrently
+npm run dev  ----->>>this will run both frontend and backend concurrently <br>
 
 <br>
 
 #📱 Responsive Design<br>
 
 
-LearnLoop is designed to provide a consistent experience across:
-Laptop
-Mobile devices
+LearnLoop is designed to provide a consistent experience across: <br>
+Laptop <br>
+Mobile devices <br>
 
 
 📸 Screenshots
