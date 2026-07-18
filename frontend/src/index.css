@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.homebg{
+    background: url('../src/assets/Images/bghome.svg');
+}
