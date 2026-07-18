@@ -85,7 +85,7 @@ MAIL_PASS= <br>
 
 //ALSO GO TO ROOT DIRECTORY <br>
 cd .. <br>
-npm intall <br>
+npm install <br>
 
 REMAIN AT ROOT DIRECTORY AND RUN <br>
 
